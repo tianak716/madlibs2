@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "lemonlove";
+  src: url(/madlibs/LemonLove.ttf);
+}
+
+body {
+  text-align: center;
+  background: pink;
+}
+h1 {
+  font-family: "lemonlove";
+}
+p {
+  font-size: x-large;
+  font-family: "bluetea";
+}
+input {
+  color: aqua;
+}
+
+input {
+  background-color: aqua;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: medium;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 10px;
+}
